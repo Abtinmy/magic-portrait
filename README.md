@@ -84,15 +84,13 @@ The complete workflow is demonstrated in the following diagram.
 3. Build and train a deep neural network to blend the resulted images more accurately, for speed up and better performance.
 
 ## Bug / Feature Request
-If you find a bug, kindly open an issue [here](https://github.com/IPM-HPC/MagicPortrait/issues/new) by including your inputs and the expected result.
+If you find a bug, kindly open an issue [here](https://github.com/Abtinmy/magic-portrait/issues/new) by including your inputs and the expected result.
 
-If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/IPM-HPC/MagicPortrait/issues/new). Please include sample inputs and their corresponding results.
+If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/Abtinmy/magic-portrait/issues/new). Please include sample inputs and their corresponding results.
 
 ## Technologies Used
 
 <img src="images/tensorflow.png" width="300px" height="200px"><img src="images/tflite.png" width="300px" height="200px"><img src="images/python.png" width="400px" height="200px"><img src="images/keras.png" width="300px" height="150px"><img src="images/java.png" width="150px" height="150px"><img src="images/cpp.png" width="150px" height="150px"><img src="images/opencv.png" width="150px" height="150px"><img src="images/Eigen.png" width="200px" height="200px"><img src="images/android.png" width="200px" height="200px">
-
-## License
 
 ## Credits
 - [Segmentation tutorial from Tensorflow](https://www.tensorflow.org/tutorials/images/segmentation)

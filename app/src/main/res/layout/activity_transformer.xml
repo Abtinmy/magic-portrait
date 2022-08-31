@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TransformerActivity">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/photoCard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12sp"
+        android:paddingHorizontal="12sp"
+        app:cardElevation="6sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSave">
+
+        <ImageView
+            android:id="@+id/imageViewTransformer"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/content" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <HorizontalScrollView
+        android:id="@+id/filtersToolsLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/photoCard">
+        <!-- only one child view required-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12sp"
+                android:paddingHorizontal="12sp">
+
+                <ImageView
+                    android:id="@+id/style1"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/style" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12sp"
+                android:paddingHorizontal="12sp">
+
+                <ImageView
+                    android:id="@+id/style2"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/style2" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12sp"
+                android:paddingHorizontal="12sp">
+
+                <ImageView
+                    android:id="@+id/style3"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/style3" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12sp"
+                android:paddingHorizontal="12sp">
+
+                <ImageView
+                    android:id="@+id/style4"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/style4" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12sp"
+                android:paddingHorizontal="12sp">
+
+                <ImageView
+                    android:id="@+id/style5"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/style5" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12sp"
+                android:paddingHorizontal="12sp">
+
+                <ImageView
+                    android:id="@+id/style6"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/style6" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12sp"
+                android:paddingHorizontal="12sp">
+
+                <ImageView
+                    android:id="@+id/style7"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/style7" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12sp"
+                android:paddingHorizontal="12sp">
+
+                <ImageView
+                    android:id="@+id/style8"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/style8" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12sp"
+                android:paddingHorizontal="12sp">
+
+                <ImageView
+                    android:id="@+id/style9"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/style9" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12sp"
+                android:paddingHorizontal="12sp">
+
+                <ImageView
+                    android:id="@+id/style10"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/style10" />
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12sp"
+                android:paddingHorizontal="12sp">
+
+                <ImageView
+                    android:id="@+id/btnAddStyle"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:adjustViewBounds="true"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/plus" />
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:onClick="saveOutput"
+        android:text="Save"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btnSegmentation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:onClick="doSegmentation"
+        android:text="Segmentation"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filtersToolsLayout" />
+
+    <Button
+        android:id="@+id/btnStyleTransfer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="doStyleTransfer"
+        android:text="Style Transfer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/filtersToolsLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

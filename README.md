@@ -13,7 +13,7 @@
 
 
 ## Demo and Installation
-Download the app from [Bazzar](), [Myket](), [Github](), or [Google Drive](https://drive.google.com/file/d/1_9cmIjUrZ369ZzrYRbzZt7MwmEX-suXW/view?usp=sharing). 
+Download the app from [here](https://github.com/Abtinmy/magic-portrait/releases/tag/v1.0.0). 
 
 ![](images/demo.png)
 

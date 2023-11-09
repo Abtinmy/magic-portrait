@@ -1,0 +1,21 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  Magic Portrait: a seamless object detector and style
+  transfer
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Abtin
+    family-names: Mahyar
+  - given-names: Hossein
+    family-names: Motamednia
+  - given-names: Dara
+    family-names: Rahmati
+repository-code: 'https://github.com/Abtinmy/magic-portrait'
+license: GPL-3.0
+version: v1.0.0

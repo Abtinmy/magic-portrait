@@ -16,6 +16,9 @@ authors:
     family-names: Motamednia
   - given-names: Dara
     family-names: Rahmati
+identifiers:
+  - type: url
+    value: 'https://github.com/Abtinmy/magic-portrait'
 repository-code: 'https://github.com/Abtinmy/magic-portrait'
 license: GPL-3.0
 version: v1.0.0
